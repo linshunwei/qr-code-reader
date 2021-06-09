@@ -1,0 +1,31 @@
+{
+  "name": "linshunwei/qr-code-reader",
+  "description": "Simple PHP QR Code Reader / Decoder",
+  "keywords": [
+    "laravel",
+    "qr code reader",
+    "qr code decoder"
+  ],
+  "homepage": "https://github.com/libern/qr-code-reader",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "linshunwei",
+      "email": "lsw.nba@163.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "autoload": {
+    "classmap": ["src/"],
+    "psr-4": {
+      "Linshunwei\\QRCodeReader\\": "src/"
+    },
+    "files": [
+      "src/Lib/Common/customFunctions.php"
+    ]
+  }
+}
