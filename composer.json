@@ -1,12 +1,12 @@
 {
-  "name": "linshunwei/qr-code-reader",
+  "name": "linshunwei/qrcode-reader",
   "description": "Simple PHP QR Code Reader / Decoder",
   "keywords": [
     "laravel",
     "qr code reader",
     "qr code decoder"
   ],
-  "homepage": "https://github.com/libern/qr-code-reader",
+  "homepage": "https://github.com/linshunwei/qrcode-reader",
   "type": "library",
   "license": "MIT",
   "authors": [

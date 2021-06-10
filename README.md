@@ -13,7 +13,7 @@ Ported from [ZXing library](https://github.com/zxing/zxing) <br>
 ## Installation 
 Use [Composer](https://getcomposer.org/):
 ```
-composer require linshunwei/qr-code-reader
+composer require linshunwei/qrcode-reader
 ```
 
 ## Usage 
