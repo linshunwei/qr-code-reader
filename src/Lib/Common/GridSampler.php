@@ -17,7 +17,7 @@
 
 namespace Linshunwei\QRCodeReader\Lib\Common;
 
-use Zxing\NotFoundException;
+use Linshunwei\QRCodeReader\Lib\NotFoundException;
 
 /**
  * Implementations of this class can, given locations of finder patterns for a QR code in an

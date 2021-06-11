@@ -17,14 +17,14 @@
 
 namespace Linshunwei\QRCodeReader\Lib\Qrcode\Decoder;
 
-use Zxing\ChecksumException;
-use Zxing\DecodeHintType;
-use Zxing\FormatException;
-use Zxing\Common\BitMatrix;
-use Zxing\Common\DecoderResult;
-use Zxing\Common\Reedsolomon\GenericGF;
-use Zxing\Common\Reedsolomon\ReedSolomonDecoder;
-use Zxing\Common\Reedsolomon\ReedSolomonException;
+use Linshunwei\QRCodeReader\Lib\ChecksumException;
+use Linshunwei\QRCodeReader\Lib\DecodeHintType;
+use Linshunwei\QRCodeReader\Lib\FormatException;
+use Linshunwei\QRCodeReader\Lib\Common\BitMatrix;
+use Linshunwei\QRCodeReader\Lib\Common\DecoderResult;
+use Linshunwei\QRCodeReader\Lib\Common\Reedsolomon\GenericGF;
+use Linshunwei\QRCodeReader\Lib\Common\Reedsolomon\ReedSolomonDecoder;
+use Linshunwei\QRCodeReader\Lib\Common\Reedsolomon\ReedSolomonException;
 
 /**
  * <p>The main class which implements QR Code decoding -- as opposed to locating and extracting

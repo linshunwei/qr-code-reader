@@ -17,9 +17,9 @@
 
 namespace Linshunwei\QRCodeReader\Lib\Qrcode\Detector;
 
-use Zxing\NotFoundException;
-use Zxing\ResultPointCallback;
-use Zxing\Common\BitMatrix;
+use Linshunwei\QRCodeReader\Lib\NotFoundException;
+use Linshunwei\QRCodeReader\Lib\ResultPointCallback;
+use Linshunwei\QRCodeReader\Lib\Common\BitMatrix;
 
 /**
  * <p>This class attempts to find alignment patterns in a QR Code. Alignment patterns look like finder

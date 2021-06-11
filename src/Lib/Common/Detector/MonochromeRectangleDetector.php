@@ -8,9 +8,9 @@
 
 namespace Linshunwei\QRCodeReader\Lib\Common\Detector;
 
-use Zxing\BinaryBitmap;
-use \Zxing\NotFoundException;
-use \Zxing\ResultPoint;
+use Linshunwei\QRCodeReader\Lib\BinaryBitmap;
+use \Linshunwei\QRCodeReader\Lib\NotFoundException;
+use \Linshunwei\QRCodeReader\Lib\ResultPoint;
 
 /*
  *

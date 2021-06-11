@@ -2,8 +2,8 @@
 
 namespace Linshunwei\QRCodeReader\Lib;
 
-use Zxing\Common\HybridBinarizer;
-use Zxing\Qrcode\QRCodeReader;
+use Linshunwei\QRCodeReader\Lib\Common\HybridBinarizer;
+use Linshunwei\QRCodeReader\Lib\Qrcode\QRCodeReader;
 
 final class QrReader
 {

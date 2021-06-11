@@ -17,7 +17,7 @@
 
 namespace Linshunwei\QRCodeReader\Lib\Qrcode\Decoder;
 
-use Zxing\Common\BitMatrix;
+use Linshunwei\QRCodeReader\Lib\Common\BitMatrix;
 
 /**
  * <p>Encapsulates data masks for the data bits in a QR code, per ISO 18004:2006 6.8. Implementations

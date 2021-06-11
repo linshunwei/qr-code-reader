@@ -17,9 +17,9 @@
 
 namespace Linshunwei\QRCodeReader\Lib\Common;
 
-use Zxing\Binarizer;
-use Zxing\LuminanceSource;
-use Zxing\NotFoundException;
+use Linshunwei\QRCodeReader\Lib\Binarizer;
+use Linshunwei\QRCodeReader\Lib\LuminanceSource;
+use Linshunwei\QRCodeReader\Lib\NotFoundException;
 
 /**
  * This class implements a local thresholding algorithm, which while slower than the

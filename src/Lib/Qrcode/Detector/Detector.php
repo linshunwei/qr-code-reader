@@ -17,17 +17,17 @@
 
 namespace Linshunwei\QRCodeReader\Lib\Qrcode\Detector;
 
-use Zxing\DecodeHintType;
-use Zxing\FormatException;
-use Zxing\NotFoundException;
-use Zxing\ResultPoint;
-use Zxing\ResultPointCallback;
-use Zxing\Common\BitMatrix;
-use Zxing\Common\DetectorResult;
-use Zxing\Common\GridSampler;
-use Zxing\Common\PerspectiveTransform;
-use Zxing\Common\Detector\MathUtils;
-use Zxing\Qrcode\Decoder\Version;
+use Linshunwei\QRCodeReader\Lib\DecodeHintType;
+use Linshunwei\QRCodeReader\Lib\FormatException;
+use Linshunwei\QRCodeReader\Lib\NotFoundException;
+use Linshunwei\QRCodeReader\Lib\ResultPoint;
+use Linshunwei\QRCodeReader\Lib\ResultPointCallback;
+use Linshunwei\QRCodeReader\Lib\Common\BitMatrix;
+use Linshunwei\QRCodeReader\Lib\Common\DetectorResult;
+use Linshunwei\QRCodeReader\Lib\Common\GridSampler;
+use Linshunwei\QRCodeReader\Lib\Common\PerspectiveTransform;
+use Linshunwei\QRCodeReader\Lib\Common\Detector\MathUtils;
+use Linshunwei\QRCodeReader\Lib\Qrcode\Decoder\Version;
 
 
 /**
@@ -81,7 +81,7 @@ class Detector
             throw NotFoundException::getNotFoundInstance();
         }
         $dimension               = (int)self::computeDimension($topLeft, $topRight, $bottomLeft, $moduleSize);
-        $provisionalVersion      = \Zxing\Qrcode\Decoder\Version::getProvisionalVersionForDimension($dimension);
+        $provisionalVersion      = \Linshunwei\QRCodeReader\Lib\Qrcode\Decoder\Version::getProvisionalVersionForDimension($dimension);
         $modulesBetweenFPCenters = $provisionalVersion->getDimensionForVersion() - 7;
 
         $alignmentPattern = null;

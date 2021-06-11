@@ -17,15 +17,15 @@
 
 namespace Linshunwei\QRCodeReader\Lib\Qrcode;
 
-use Zxing\BinaryBitmap;
-use Zxing\ChecksumException;
-use Zxing\FormatException;
-use Zxing\NotFoundException;
-use Zxing\Reader;
-use Zxing\Result;
-use Zxing\Common\BitMatrix;
-use Zxing\Qrcode\Decoder\Decoder;
-use Zxing\Qrcode\Detector\Detector;
+use Linshunwei\QRCodeReader\Lib\BinaryBitmap;
+use Linshunwei\QRCodeReader\Lib\ChecksumException;
+use Linshunwei\QRCodeReader\Lib\FormatException;
+use Linshunwei\QRCodeReader\Lib\NotFoundException;
+use Linshunwei\QRCodeReader\Lib\Reader;
+use Linshunwei\QRCodeReader\Lib\Result;
+use Linshunwei\QRCodeReader\Lib\Common\BitMatrix;
+use Linshunwei\QRCodeReader\Lib\Qrcode\Decoder\Decoder;
+use Linshunwei\QRCodeReader\Lib\Qrcode\Detector\Detector;
 
 /**
  * This implementation can detect and decode QR Codes in an image.
@@ -47,8 +47,8 @@ class QRCodeReader implements Reader
      * @param null         $hints
      *
      * @return Result
-     * @throws \Zxing\FormatException
-     * @throws \Zxing\NotFoundException
+     * @throws \Linshunwei\QRCodeReader\Lib\FormatException
+     * @throws \Linshunwei\QRCodeReader\Lib\NotFoundException
      */
     public function decode(BinaryBitmap $image, $hints = null)
     {

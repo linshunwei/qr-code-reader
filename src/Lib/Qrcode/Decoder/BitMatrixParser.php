@@ -17,8 +17,8 @@
 
 namespace Linshunwei\QRCodeReader\Lib\Qrcode\Decoder;
 
-use Zxing\FormatException;
-use Zxing\Common\BitMatrix;
+use Linshunwei\QRCodeReader\Lib\FormatException;
+use Linshunwei\QRCodeReader\Lib\Common\BitMatrix;
 
 /**
  * @author Sean Owen

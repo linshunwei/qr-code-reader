@@ -17,7 +17,7 @@
 
 namespace Linshunwei\QRCodeReader\Lib;
 
-use Zxing\Common\BitMatrix;
+use Linshunwei\QRCodeReader\Lib\Common\BitMatrix;
 
 /**
  * This class is the core bitmap class used by ZXing to represent 1 bit data. Reader objects

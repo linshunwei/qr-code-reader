@@ -17,7 +17,7 @@
 
 namespace Linshunwei\QRCodeReader\Lib;
 
-use Zxing\Common\Detector\MathUtils;
+use Linshunwei\QRCodeReader\Lib\Common\Detector\MathUtils;
 
 /**
  * <p>Encapsulates a point of interest in an image containing a barcode. Typically, this

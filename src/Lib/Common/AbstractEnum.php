@@ -2,7 +2,7 @@
 
 namespace Linshunwei\QRCodeReader\Lib\Common;
 
-use \Zxing\NotFoundException;
+use \Linshunwei\QRCodeReader\Lib\NotFoundException;
 use ReflectionClass;
 
 /**

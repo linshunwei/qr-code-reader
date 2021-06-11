@@ -17,7 +17,7 @@
 
 namespace Linshunwei\QRCodeReader\Lib\Qrcode\Detector;
 
-use Zxing\ResultPoint;
+use Linshunwei\QRCodeReader\Lib\ResultPoint;
 
 /**
  * <p>Encapsulates an alignment pattern, which are the smaller square patterns found in

@@ -17,8 +17,8 @@
 
 namespace Linshunwei\QRCodeReader\Lib;
 
-use Zxing\Common\BitArray;
-use Zxing\Common\BitMatrix;
+use Linshunwei\QRCodeReader\Lib\Common\BitArray;
+use Linshunwei\QRCodeReader\Lib\Common\BitMatrix;
 
 /**
  * This class hierarchy provides a set of methods to convert luminance data to 1 bit data.

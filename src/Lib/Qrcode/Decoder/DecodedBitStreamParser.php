@@ -17,12 +17,12 @@
 
 namespace Linshunwei\QRCodeReader\Lib\Qrcode\Decoder;
 
-use Zxing\DecodeHintType;
-use Zxing\FormatException;
-use Zxing\Common\BitSource;
-use Zxing\Common\CharacterSetECI;
-use Zxing\Common\DecoderResult;
-use Zxing\Common\StringUtils;
+use Linshunwei\QRCodeReader\Lib\DecodeHintType;
+use Linshunwei\QRCodeReader\Lib\FormatException;
+use Linshunwei\QRCodeReader\Lib\Common\BitSource;
+use Linshunwei\QRCodeReader\Lib\Common\CharacterSetECI;
+use Linshunwei\QRCodeReader\Lib\Common\DecoderResult;
+use Linshunwei\QRCodeReader\Lib\Common\StringUtils;
 
 
 /**

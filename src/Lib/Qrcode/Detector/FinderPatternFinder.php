@@ -17,10 +17,10 @@
 
 namespace Linshunwei\QRCodeReader\Lib\Qrcode\Detector;
 
-use Zxing\BinaryBitmap;
-use Zxing\Common\BitMatrix;
-use Zxing\NotFoundException;
-use Zxing\ResultPoint;
+use Linshunwei\QRCodeReader\Lib\BinaryBitmap;
+use Linshunwei\QRCodeReader\Lib\Common\BitMatrix;
+use Linshunwei\QRCodeReader\Lib\NotFoundException;
+use Linshunwei\QRCodeReader\Lib\ResultPoint;
 
 /**
  * <p>This class attempts to find finder patterns in a QR Code. Finder patterns are the square
